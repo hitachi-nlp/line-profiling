@@ -2,10 +2,10 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name='profiler',
+    name='kern_profiler',
     version='0.0',
     description='Profiler',
-    url='https://gitlab.rdcloud.intra.hitachi.co.jp/71389710/profiler',
+    url='https://gitlab.rdcloud.intra.hitachi.co.jp/71389710/kern-profiler',
     author='Honoka',
     author_email='terufumi.morishita.wp@hitachi.com',
     license='Hitachi R&D',
