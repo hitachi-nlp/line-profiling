@@ -1,1 +1,1 @@
-from profiler import preprocess
+from kern_profiler import preprocess
