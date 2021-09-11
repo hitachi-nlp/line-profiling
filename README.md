@@ -3,7 +3,7 @@
 
 ## Installation
 ```sh
-pip install git+https://github.com/HonoMi/kern-profiler.git@master
+pip install kern_profiler@git+https://github.com/HonoMi/kern-profiler.git@master
 
 ```
 
