@@ -8,5 +8,5 @@ pip install kern_profiler@git+https://github.com/HonoMi/kern-profiler.git@master
 ```
 
 ## How to use.
-* line-profilerのデコレータ(`@profile`)を使うプログラムで，`import profiler`をする．
+* line-profilerのデコレータ(`@profile`)を使うプログラムで，`import kern_profiler`をする．
 * [サンプル](./sample.py)
