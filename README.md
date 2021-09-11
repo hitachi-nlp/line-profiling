@@ -3,7 +3,8 @@
 
 ## Installation
 ```sh
-pip install git+https://gitlab.rdcloud.intra.hitachi.co.jp/71389710/kern-profiler
+pip install git+https://github.com/HonoMi/kern-profiler.git@master
+
 ```
 
 ## How to use.
