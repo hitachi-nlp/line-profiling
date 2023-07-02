@@ -3,7 +3,7 @@ A thin wrapper of [line-profiler](https://github.com/rkern/line_profiler) to sup
 
 ## Installation
 ```sh
-pip install line_profiling@git+https://github.com/HonoMi/line-profiling.git@master
+pip install line_profiling@git+https://github.com/hitachi-nlp/line-profiling.git@main
 
 ```
 
