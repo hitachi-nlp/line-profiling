@@ -2,13 +2,10 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name='kern_profiler',
+    name='line_profiling',
     version='0.0',
-    description='Profiler',
-    url='https://gitlab.rdcloud.intra.hitachi.co.jp/71389710/kern-profiler',
+    description='Line Profiling',
     author='Honoka',
-    author_email='terufumi.morishita.wp@hitachi.com',
-    license='Hitachi R&D',
     install_requires=[
         'line-profiler'
     ],

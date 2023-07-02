@@ -1,12 +1,22 @@
-# Profiler
-[line-profiler](https://github.com/rkern/line_profiler)のデコーレータ(`@profile`)が使用されている場合，line-profiler未使用時にも，エラーが出ないようにする．
+# Line Profiling
+A thin wrapper of [line-profiler](https://github.com/rkern/line_profiler) to suppress `Not found` exception on `@profile` decorator when the program is called without using the line-profiler.
 
 ## Installation
 ```sh
-pip install kern_profiler@git+https://github.com/HonoMi/kern-profiler.git@master
+pip install line_profiling@git+https://github.com/HonoMi/line-profiling.git@master
 
 ```
 
 ## How to use.
-* line-profilerのデコレータ(`@profile`)を使うプログラムで，`import kern_profiler`をする．
-* [サンプル](./sample.py)
+```
+import line_profiling
+
+@profile
+def count(N=10000):
+    s = 0
+    for i in range(0, N):
+        s += i
+    return i
+
+count()
+```
