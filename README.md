@@ -8,7 +8,7 @@ pip install line_profiling@git+https://github.com/hitachi-nlp/line-profiling.git
 ```
 
 ## How to use.
-```
+```python
 import line_profiling
 
 @profile
